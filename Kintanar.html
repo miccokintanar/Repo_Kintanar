@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kintanar Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header class="sticky-header">
+		<div class="logo-title">
+			<img src="https://i.pinimg.com/736x/a2/ff/3c/a2ff3c142ec11b32cf79daaeab831fae.jpg" alt="Logo" class="logo-mini">
+			<h1>Kintanar Portfolio</h1>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="#hero">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#campus">Campus Life</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#gallery">Gallery</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="hero" class="hero-section fade-in">
+		<div class="hero-content">
+			<h2>Hi, I'm Kintanar</h2>
+			<p>Game Developer | Graphic Designer | Campus Student</p>
+			<a href="#projects" class="cta-btn">See My Work</a>
+		</div>
+	</section>
+	<main>
+		<section id="about" class="fade-in">
+			<div class="about-flex">
+				<img src="https://i.pinimg.com/736x/a2/ff/3c/a2ff3c142ec11b32cf79daaeab831fae.jpg" alt="Profile Photo" class="profile-img">
+				<div>
+					<h2>About Me</h2>
+					<p>Hey there! I'm Kintanar Micco C. , a Doña Carmen Denia National High School student developer who loves coding, and making games.Welcome to my student portfolio!</p>
+					<blockquote class="scholar-quote">“Education is not the learning of facts, but the training of the mind to think” –Albert Einstien</blockquote>
+					<div class="social-links">
+						<a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+						<a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+						<a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="campus" class="fade-in">
+			<h2>Campus Life</h2>
+			<div class="campus-cards">
+				<div class="campus-card">
+					<span class="campus-icon">💻</span>
+					<div>
+						<strong>Computer Science Club Member</strong>
+						<p>Collaborate on tech projects, attend workshops, and grow with fellow coders.</p>
+					</div>
+				</div>
+				<div class="campus-card">
+					<span class="campus-icon">🤝</span>
+					<div>
+						<strong>Tech for Good Volunteer</strong>
+						<p>Use technology to help local communities and support social causes.</p>
+					</div>
+				</div>
+				<div class="campus-card">
+					<span class="campus-icon">🏆</span>
+					<div>
+						<strong>1st Place, University Hackathon 2024</strong>
+						<p>Developed an innovative app in a 24-hour coding challenge with a team.</p>
+					</div>
+				</div>
+				<div class="campus-card">
+					<span class="campus-icon">🎓</span>
+					<div>
+						<strong>Peer Tutor, Web Development</strong>
+						<p>Helped classmates master HTML, CSS, and JavaScript through tutoring sessions.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="projects" class="fade-in">
+			<h2>Projects</h2>
+			<div class="project-list">
+				<div class="project">
+					<h3>Open World Adventure Game</h3>
+					<p>A video game featuring an expansive virtual world that the player can explore with a high degree of freedom. In contrast to more linear game structures, open-world games allow players to approach objectives, wander the environment, and engage in various activities at their own pace. </p>
+				
+				</div>
+				<div class="project">
+					<h3>Plaatformer Games</h3>
+					<p>a video game genre characterized by core gameplay that involves moving a player-controlled character by running, jumping, and climbing on suspended platforms to reach an objective.</p>
+					
+				</div>
+			</div>
+		</section>
+		<section id="skills" class="fade-in">
+			<h2>Skills</h2>
+			<ul class="skills-list">
+				<li><i class="fab fa-html5"></i> HTML</li>
+				<li><i class="fab fa-css3-alt"></i> CSS</li>
+				<li><i class="fab fa-js"></i> JavaScript</li>
+				<li><i class="fab fa-python"></i> Python</li>
+				<li><i class="fas fa-users"></i> Game Development</li>
+				<li><i class="fas fa-microphone"></i> Graphic Designer</li>
+			</ul>
+		</section>
+		<section id="gallery" class="fade-in">
+			<h2>Gallery</h2>
+			<div class="gallery-grid">
+				<img src="https://i.pinimg.com/736x/1a/07/e4/1a07e4930a2fa15cdd840942d4335288.jpg" alt="Hackathon" class="gallery-img">
+				<img src="https://i.pinimg.com/736x/eb/2c/72/eb2c72ca9e5f7be7b9b0c0eab997beff.jpg" alt="Club Meeting" class="gallery-img">
+				<img src="https://i.pinimg.com/1200x/20/db/3e/20db3e974ac8c611a34038547b0a0d7a.jpg" alt="Campus Event" class="gallery-img">
+			</div>
+		</section>
+		<section id="contact" class="fade-in">
+			<h2>Contact</h2>
+			<form class="contact-form">
+				<input type="text" name="name" placeholder="Your Name" required>
+				<input type="email" name="email" placeholder="Your Email" required>
+				<textarea name="message" placeholder="Your Message" required></textarea>
+				<button type="submit">Send Message</button>
+			</form>
+			<div class="contact-info">
+				<p><i class="fas fa-envelope"></i> <a href="mailto:miccokintanar8@gmail.com">miccokintanar8@gmail.com</a></p>
+				<p><i class="fab fa-linkedin"></i> <a href="Kintanar Micco C." target="_blank">Kintanar Micco C.</a></p>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2025 Kintanar. All rights reserved.</p>
+	</footer>
+	<script src="Java.js"></script>
+	<script>
+	// Smooth scroll for navigation
+	document.querySelectorAll('nav a').forEach(link => {
+		link.addEventListener('click', function(e) {
+			if(this.hash) {
+				e.preventDefault();
+				document.querySelector(this.hash).scrollIntoView({ behavior: 'smooth' });
+			}
+		});
+	});
+	// Fade-in animation on scroll
+	const faders = document.querySelectorAll('.fade-in');
+	const appearOptions = { threshold: 0.2 };
+	const appearOnScroll = new IntersectionObserver(function(entries, observer) {
+		entries.forEach(entry => {
+			if (!entry.isIntersecting) return;
+			entry.target.classList.add('appear');
+			observer.unobserve(entry.target);
+		});
+	}, appearOptions);
+	faders.forEach(fader => { appearOnScroll.observe(fader); });
+	</script>
